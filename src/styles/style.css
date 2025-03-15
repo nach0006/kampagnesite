@@ -36,6 +36,7 @@ body {
 }
 
 /* fonts */
+/* vi mangler at vælge størrelser både til mobil og desktop */
 h1 {
   font-family: roca, sans-serif;
   font-weight: bold;
@@ -59,3 +60,5 @@ p {
 :root {
   --with: 0 40px;
 }
+
+/* til paddings af sektioner  */
