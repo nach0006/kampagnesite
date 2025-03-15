@@ -1,1 +1,61 @@
 /* GENERAL STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-inline: auto;
+  background-color: #f5f5f5;
+}
+
+/* colors */
+:root {
+  --light-turquoise: #f3faf9;
+  --medium-turquoise: #abe4dc;
+  --turquoise: #4eb3ac;
+  --darker-turquoise: #236260;
+  --dark-blue: #001961;
+  --light-orange: #ffcba9;
+  --orange: #ff975b;
+  --light-grey: #f7f7f7;
+  --grey: #525252;
+  --dark-grey: #3d3d3d;
+}
+
+/* fonts */
+h1 {
+  font-family: roca, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: poppins, sans-serif;
+}
+
+/* layouts */
+:root {
+  --with: 0 40px;
+}
